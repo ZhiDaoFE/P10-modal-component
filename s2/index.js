@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }, 0);
         },
         onOk: () => {
-          modal.close();
+          modal1.close();
         },
         onDestroy: () => {
           if (timer) {
@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }, 0);
         },
         onOk: () => {
-          modal.close();
+          modal2.close();
         },
         onDestroy: () => {
           if (timer) {

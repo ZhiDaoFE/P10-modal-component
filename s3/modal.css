@@ -1,0 +1,65 @@
+.zd-modal-mask {
+  position: fixed;
+  inset: 0;
+  z-index: 1001;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+.zd-modal-wrap {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1002;
+  width: 520px;
+  margin: 0;
+  padding: 20px 24px;
+  color: rgba(0, 0, 0, 0.88);
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+}
+.zd-modal-title {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.zd-modal-close {
+  cursor: pointer;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+}
+.zd-modal-close:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+.zd-modal-close-icon {
+  width: 24px;
+  height: 24px;
+}
+.zd-modal-body {
+  font-size: 14px;
+  line-height: 22px;
+}
+.zd-modal-footer {
+  margin-top: 12px;
+  text-align: end;
+  font-size: 0;
+}
+.zd-modal-footer-btn--cancel {
+  border-color: #d9d9d9;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.88);
+}
+.zd-modal-footer-btn--ok, .zd-modal-footer-btn--cancel {
+  margin-left: 8px;
+}
